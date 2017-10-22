@@ -12,108 +12,14 @@ var basic = new Datamap({
           yellow: 'F0CF65',
           red: 'bd4f6c',
           orange: 'ff8484'     
-        },  
+        }, 
+  geographyConfig: {
+    popupOnHover: false,
+    highlightOnHover: false
+  }
 });
 
-basic.bubbles([
-  {language_name: 'Highland Puebla Nahuatl', 
-   concept: {health: 'pak-tok', teacher: 'ta-mač-tih-keh', water: 'a-t', happy: 'yol-paki', butterfly: 'papalo-t', help: 'ki-palewi-a', dance: 'mihtoti-a', harvest: 'takilot'},
-   latitude: 20.15,
-   longitude: -97.55,
-   radius: 15,
-   fillKey: 'moody_blue'},
-  {language_name: 'Navajo',
-   concept: {health: 'shánah', teacher: 'báʼóltaʼí', water: 'tó', happy: 'bízháneeʼ', butterfly: 'kʼaalógii', help: 'iilyeed', dance: 'azhish', harvest: 'ʼaakʼeed'},
-   latitude: 36.21,
-   longitude: -110.08,
-   radius: 18,
-   fillKey: 'green'},
-    {language_name: 'Eastern Bolivian Guaraní',
-   concept: {health: 'tekowe-katu', teacher: 'poro-ᵐboe-a', water: 'ɨ', happy: 'h-orɨ', butterfly: 'pãna-pãna', help: 'ᵐborɨ', dance: 'purae', harvest: 'ᵐbaʼrɨwo'},
-   latitude: -21.09,
-   longitude: -61.71,
-   radius: 17,
-   fillKey: 'orange'},
-  {language_name: 'Dargwa',
-   concept: {health: 'тазаси', teacher: 'мугІялим', water: 'шин', happy: 'талихІчевси разиси', butterfly: 'къабулдан', help: 'кумек', dance: 'улхъес', harvest: 'сабухъ'},
-   latitude: 42.43,
-   longitude: 47.43,
-   radius: 17,
-   fillKey: 'yellow'},
-  {language_name: 'Hungarian',
-   concept: {health: 'egészség', teacher: 'tanár', water: 'víz', happy: 'boldog', butterfly: 'pillangó', help: 'segít', dance: 'táncol', harvest: 'arat'},
-   latitude: 46.90,
-   longitude: 19.65,
-   radius: 15,
-   fillKey: 'red'},
-  {language_name: 'Spanish',
-   concept: {health: 'salud', teacher: 'maestro', water: 'agua', happy: 'feliz', butterfly: 'mariposa', help: 'ayudar', dance: 'bailar', harvest: 'cosecha'},
-   latitude: 40.44,
-   longitude: -1.17,
-   radius: 12,
-   fillKey: 'moody_blue'},
-  {language_name: 'Abui',
-   concept: {health: 'rowa', teacher: 'tuong', water: 'took', happy: 'kaang', butterfly: 'kupak', help: 'tukai', dance: 'luuk', harvest: 'saasan'},
-   latitude: -8.31,
-   longitude: 124.58,
-   radius: 12,
-   fillKey: 'moody_blue'},
-  {language_name: 'Mandarin(Simplified)',
-   concept: {health: '健康', teacher: '老师', water: '水', happy: '高兴', butterfly: '蝴蝶', help: '帮助', dance: '跳舞', harvest: '收获'},
-   latitude: 40.02,
-   longitude: 116.23,
-   radius: 13,
-   fillKey: 'green'},
-  {language_name: 'Ket',
-   concept: {health: 'ooŋ', teacher: 'siraʁats', water: 'ūl', happy: 'dəɣasiŋ', butterfly: 'kumlej', help: 'pomogat', dance: 'tiˀŋ', harvest: 'doo'},
-   latitude: 63.75,
-   longitude: 87.54,
-   radius: 14,
-   fillKey: 'orange'},
-  {language_name: 'Malayalam',
-   concept: {health: 'ആരോഗ്യം', teacher: 'അദ്ധ്യാപിക', water: 'വെള്ളം', happy: 'ഇഷ്ടം', butterfly: 'ചിത്രശലഭം', help: 'സഹായം', dance: 'നൃത്തം', harvest: 'ശേഖരിയ്ക്കുക'},
-   latitude: 9.59,
-   longitude: 76.77,
-   radius: 17,
-   fillKey: 'red'},
-  {language_name: 'Hmong Daw',
-   concept: {health: 'noj qab nyob zoo', teacher: 'xib hwb', water: 'dej', happy: 'zoo siab', butterfly: 'npuj-npaim', help: 'pab', dance: 'las voos', harvest: 'sau'},
-   latitude: 21.55,
-   longitude: 103.16,
-   radius: 10,
-   fillKey: 'yellow'},
-  {language_name: 'سۆرانی',
-   concept: {health: 'تهندروستی', teacher: 'مامۆستا', water: 'ئاو', happy: 'کهیف خۆش', butterfly: 'پهروانه', help: 'یارمهتی', dance: 'سهما', harvest: 'بهرههم'},
-   latitude: 35.65,
-   longitude: 45.80,
-   radius: 10,
-   fillKey: 'orange'},
-  {language_name: 'Wano',
-   concept: {health: 'omawi', teacher: 'ngguru', water: 'i', happy: 'angginuk', butterfly: 'yivivit', help: 'mudu', dance: 'piniak', harvest: 'waniak'},
-   latitude: -3.48,
-   longitude: 137.68,
-   radius: 10,
-   fillKey: 'orange'},
-  {language_name: 'Nyangumarta',
-   concept: {health: 'purrpurn', teacher: 'miranu jinakata', water: 'warnayirti', happy: 'ngarlu ngalypa', butterfly: 'kapalipali', help: 'yilpimu jini', dance: 'jurrka', harvest: 'kuru marna'},
-   latitude: -20.63,
-   longitude: 121.39,
-   radius: 10,
-   fillKey: 'green'},
-  {language_name: 'South Central Dinka',
-   concept: {health: 'afya', teacher: 'mfundzi', water: 'madzi', happy: 'furahi', butterfly: 'popho', help: 'msada', dance: 'fwiha', harvest: 'asa'},
-   latitude: 6.73,
-   longitude: 30.3,
-   radius: 10,
-   fillKey: 'moody_blue'},
-  {language_name: 'Shekgalagari',
-   concept: {health: 'bozogo', teacher: 'morutintshi', water: 'maze', happy: 'ipela', butterfly: 'kankape', help: 'kyhusa', dance: 'bina', harvest: 'bapala'},
-   latitude: -25.92,
-   longitude: 22.72,
-   radius: 13,
-   fillKey: 'green'},
-  
-], {
+basic.bubbles( myData , {
   popupTemplate: function(geo, data) {
     return "<div class='hoverinfo'>Language Name: " + data.language_name + "</br>" + concept_key + " is: " + "<strong>" + data.concept[concept_key] + "</strong>"+ "</div>";
   }
@@ -143,110 +49,69 @@ basic.arc([
 ], {strokeWidth: 1.5});
 
 
-
 function changeConcept(concept) {
   concept_key = concept;
-  basic.bubbles([
-  {language_name: 'Highland Puebla Nahuatl', 
-   concept: {health: 'pak-tok', teacher: 'ta-mač-tih-keh', water: 'a-t', happy: 'yol-paki', butterfly: 'papalo-t', help: 'ki-palewi-a', dance: 'mihtoti-a', harvest: 'takilot'},
-   latitude: 20.15,
-   longitude: -97.55,
-   radius: 15,
-   fillKey: 'moody_blue'},
-  {language_name: 'Navajo',
-   concept: {health: 'shánah', teacher: 'báʼóltaʼí', water: 'tó', happy: 'bízháneeʼ', butterfly: 'kʼaalógii', help: 'iilyeed', dance: 'azhish', harvest: 'ʼaakʼeed'},
-   latitude: 36.21,
-   longitude: -110.08,
-   radius: 18,
-   fillKey: 'green'},
-    {language_name: 'Eastern Bolivian Guaraní',
-   concept: {health: 'tekowe-katu', teacher: 'poro-ᵐboe-a', water: 'ɨ', happy: 'h-orɨ', butterfly: 'pãna-pãna', help: 'ᵐborɨ', dance: 'purae', harvest: 'ᵐbaʼrɨwo'},
-   latitude: -21.09,
-   longitude: -61.71,
-   radius: 17,
-   fillKey: 'orange'},
-  {language_name: 'Dargwa',
-   concept: {health: 'тазаси', teacher: 'мугІялим', water: 'шин', happy: 'талихІчевси разиси', butterfly: 'къабулдан', help: 'кумек', dance: 'улхъес', harvest: 'сабухъ'},
-   latitude: 42.43,
-   longitude: 47.43,
-   radius: 17,
-   fillKey: 'yellow'},
-  {language_name: 'Hungarian',
-   concept: {health: 'egészség', teacher: 'tanár', water: 'víz', happy: 'boldog', butterfly: 'pillangó', help: 'segít', dance: 'táncol', harvest: 'arat'},
-   latitude: 46.90,
-   longitude: 19.65,
-   radius: 15,
-   fillKey: 'red'},
-  {language_name: 'Spanish',
-   concept: {health: 'salud', teacher: 'maestro', water: 'agua', happy: 'feliz', butterfly: 'mariposa', help: 'ayudar', dance: 'bailar', harvest: 'cosecha'},
-   latitude: 40.44,
-   longitude: -1.17,
-   radius: 12,
-   fillKey: 'moody_blue'},
-  {language_name: 'Abui',
-   concept: {health: 'rowa', teacher: 'tuong', water: 'took', happy: 'kaang', butterfly: 'kupak', help: 'tukai', dance: 'luuk', harvest: 'saasan'},
-   latitude: -8.31,
-   longitude: 124.58,
-   radius: 12,
-   fillKey: 'moody_blue'},
-  {language_name: 'Mandarin(Simplified)',
-   concept: {health: '健康', teacher: '老师', water: '水', happy: '高兴', butterfly: '蝴蝶', help: '帮助', dance: '跳舞', harvest: '收获'},
-   latitude: 40.02,
-   longitude: 116.23,
-   radius: 13,
-   fillKey: 'green'},
-  {language_name: 'Ket',
-   concept: {health: 'ooŋ', teacher: 'siraʁats', water: 'ūl', happy: 'dəɣasiŋ', butterfly: 'kumlej', help: 'pomogat', dance: 'tiˀŋ', harvest: 'doo'},
-   latitude: 63.75,
-   longitude: 87.54,
-   radius: 14,
-   fillKey: 'orange'},
-  {language_name: 'Malayalam',
-   concept: {health: 'ആരോഗ്യം', teacher: 'അദ്ധ്യാപിക', water: 'വെള്ളം', happy: 'ഇഷ്ടം', butterfly: 'ചിത്രശലഭം', help: 'സഹായം', dance: 'നൃത്തം', harvest: 'ശേഖരിയ്ക്കുക'},
-   latitude: 9.59,
-   longitude: 76.77,
-   radius: 17,
-   fillKey: 'red'},
-  {language_name: 'Hmong Daw',
-   concept: {health: 'noj qab nyob zoo', teacher: 'xib hwb', water: 'dej', happy: 'zoo siab', butterfly: 'npuj-npaim', help: 'pab', dance: 'las voos', harvest: 'sau'},
-   latitude: 21.55,
-   longitude: 103.16,
-   radius: 10,
-   fillKey: 'yellow'},
-  {language_name: 'سۆرانی',
-   concept: {health: 'تهندروستی', teacher: 'مامۆستا', water: 'ئاو', happy: 'کهیف خۆش', butterfly: 'پهروانه', help: 'یارمهتی', dance: 'سهما', harvest: 'بهرههم'},
-   latitude: 35.65,
-   longitude: 45.80,
-   radius: 10,
-   fillKey: 'orange'},
-  {language_name: 'Wano',
-   concept: {health: 'omawi', teacher: 'ngguru', water: 'i', happy: 'angginuk', butterfly: 'yivivit', help: 'mudu', dance: 'piniak', harvest: 'waniak'},
-   latitude: -3.48,
-   longitude: 137.68,
-   radius: 10,
-   fillKey: 'orange'},
-  {language_name: 'Nyangumarta',
-   concept: {health: 'purrpurn', teacher: 'miranu jinakata', water: 'warnayirti', happy: 'ngarlu ngalypa', butterfly: 'kapalipali', help: 'yilpimu jini', dance: 'jurrka', harvest: 'kuru marna'},
-   latitude: -20.63,
-   longitude: 121.39,
-   radius: 10,
-   fillKey: 'green'},
-  {language_name: 'South Central Dinka',
-   concept: {health: 'afya', teacher: 'mfundzi', water: 'madzi', happy: 'furahi', butterfly: 'popho', help: 'msada', dance: 'fwiha', harvest: 'asa', harvest: 'asa'},
-   latitude: 6.73,
-   longitude: 30.3,
-   radius: 10,
-   fillKey: 'moody_blue'},
-  {language_name: 'Shekgalagari',
-   concept: {health: 'bozogo', teacher: 'morutintshi', water: 'maze', happy: 'ipela', butterfly: 'kankape', help: 'kyhusa', dance: 'bina', harvest: 'bapala'},
-   latitude: -25.92,
-   longitude: 22.72,
-   radius: 13,
-   fillKey: 'green'},
-  
-], {
-  popupTemplate: function(geo, data) {
-    return "<div class='hoverinfo'>Language Name: " + data.language_name + "</br>" + concept_key + " is: " + "<strong>" + data.concept[concept_key] + "</strong>"+ "</div>";
-  }
-});
+  basic.bubbles( myData, {
+    popupTemplate: function(geo, data) {
+      return "<div class='hoverinfo'>Language Name: " + data.language_name + "</br>" + concept_key + " is: " + "<strong>" + data.concept[concept_key] + "</strong>"+ "</div>";
+    }
+  });
 }
+
+
+
+var heybubbles = [  
+  {lat: -23.42, lng: 39.11},
+  {lat: 23.5, lng: 125.43}
+];
+
+
+basic.addPlugin('bigBubble', function( layer, data ) {
+  var self = this;
+  var className = 'bigBubbles';
+
+  var cuteBubbles = layer.selectAll(className)
+                     .data( data, JSON.stringify);
+
+  var elemEnter = cuteBubbles.enter();
+
+
+    elemEnter
+      .append('circle')
+      .attr('class', className)
+      .attr('cx', function( datum ) {
+        return self.latLngToXY( datum.lat, datum.lng)[0];
+      })
+      .attr('cy', function( datum ) {
+        return self.latLngToXY( datum.lat, datum.lng)[1];
+      })
+      .attr('r', 100)
+      .style('fill', 'white');
+
+
+    elemEnter
+      .append('text')
+      .attr('dx', function( datum ) {
+        return self.latLngToXY( datum.lat, datum.lng)[0];
+      })
+      .attr('dy', function( datum ) {
+        return self.latLngToXY( datum.lat, datum.lng)[1];
+      })
+      .text("ssssssssssssssss")
+      
+
+
+
+
+
+});
+
+basic.bigBubble(heybubbles); 
+
+
+
+
+
+
+
+
