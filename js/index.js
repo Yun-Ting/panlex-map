@@ -44,31 +44,7 @@ for (var i = 0; i < num_of_languages - 5; ++i) {
 }
 
 basic.arc(
-  output_arc_list, {strokeWidth: 1, arcSharpness: 1});
-
-// basic.arc([
-//   {
-//     origin: {
-//       latitude: 20.1,
-//       longitude: -97.56
-//     },
-//     destination: {
-//       latitude: 46.90,
-//       longitude: 19.66
-//     }
-//   },
-//   {
-//     origin: {
-//       latitude: 63.75,
-//       longitude: 87.54
-//     },
-//     destination: {
-//       latitude: -25.92,
-//       longitude: 22.72
-//     }
-//   }
-// ], {strokeWidth: 1});
-
+  output_arc_list, {strokeWidth: 1, arcSharpness: 1, animationSpeed: 800});
 
 /**
  * create customized circles with plugin
@@ -144,11 +120,4 @@ basic.addPlugin('bigBubble', function( layer, data ) {
 });
 
 basic.bigBubble(myData); 
-
-
-
-
-
-
-
 
