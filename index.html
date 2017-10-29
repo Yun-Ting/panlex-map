@@ -1,43 +1,38 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>myPlayGround</title>
-  
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<head>
+		<meta charset="UTF-8">
+		<title>myPlayGround</title>
 
-      <link rel="stylesheet" href="css/style.css">
- 
-</head>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="css/style.css"> 
+	</head>
 
-<body>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-<!-- I recommend you host this file on your own, since this will change without warning -->
-<script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
-<div class="container">
-<div class="btn-group" role="group" aria-label="...">
-<button type="button" class="btn btn-default concept" id="health" onClick="changeConcept(this.id)">health</button>
-<button type="button" class="btn btn-default concept" id="teacher" onClick="changeConcept(this.id)">teacher</button>
-<button type="button" class="btn btn-default concept" id="water" onClick="changeConcept(this.id)">water</button>
-<button type="button" class="btn btn-default concept" id="happy" onClick="changeConcept(this.id)">happy</button>
-<button type="button" class="btn btn-default concept" id="butterfly" onClick="changeConcept(this.id)">butterfly</button>
-<button type="button" class="btn btn-default concept" id="help" onClick="changeConcept(this.id)">help</button>
-<button type="button" class="btn btn-default concept" id="dance" onClick="changeConcept(this.id)">dance</button>
-<button type="button" class="btn btn-default concept" id="harvest" onClick="changeConcept(this.id)">harvest</button>
-</div>
-<div id="basic"></div></div>
- 
+	<body>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<!-- I recommend you host this file on your own, since this will change without warning -->
+		<script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
 
-<!-- scripts -->
-
-<script src='http://datamaps.github.io/scripts/datamaps.world.min.js?v=1'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-<script src="js/data.js"></script>
-<script src="js/index.js"></script>
-
-</body>
+		<div class="container">
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default concept" id="health" onClick="changeConcept(this.id)">health</button>
+				<button type="button" class="btn btn-default concept" id="teacher" onClick="changeConcept(this.id)">teacher</button>
+				<button type="button" class="btn btn-default concept" id="water" onClick="changeConcept(this.id)">water</button>
+				<button type="button" class="btn btn-default concept" id="happy" onClick="changeConcept(this.id)">happy</button>
+				<button type="button" class="btn btn-default concept" id="butterfly" onClick="changeConcept(this.id)">butterfly</button>
+				<button type="button" class="btn btn-default concept" id="help" onClick="changeConcept(this.id)">help</button>
+				<button type="button" class="btn btn-default concept" id="dance" onClick="changeConcept(this.id)">dance</button>
+				<button type="button" class="btn btn-default concept" id="harvest" onClick="changeConcept(this.id)">harvest</button>
+			</div>			
+			<div id="basic"></div>
+		</div>
+		 
+		<!-- scripts -->
+		<script src='http://datamaps.github.io/scripts/datamaps.world.min.js?v=1'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+		<script src="js/data.js"></script>
+		<script src="js/index.js"></script>
+	</body>
 </html>
