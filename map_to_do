@@ -1,0 +1,10 @@
+
+-- The words and language names should always be visible, you shouldn't have to hover over to see them. Maybe you could mark the language with a colored dot/circle and put the language name and word in a box next to them.
+
+-- Remember that you should always include the name of the language as used by its speakers first if it's available, and then put the English name in parentheses. So the language names in order should be: "Náhuat Zacapoaxtla (Highland Puebla Nahuatl)", "Diné bizaad (Navajo)", "Chiriguano (Eastern Bolivian Guaraní)", "дарган мез (Dargwa)", "magyar (Hungarian)", "español (Spanish)", "Abui", "普通话 (Mandarin Simplified)", "Ket", "മലയാളം (Malayalam)", "Hmoob Dawb (Hmong Daw)", "سۆرانی (Central Kurdish)", "Wano", "Nyangumarta", "South Central Dinka", "Shekgalagari".
+
+-- I would just make all the dots/circles the same size and not try to communicate anything with the size. Likewise, I would just choose visually interesting colors for the different circles. I'd choose a different color for every circle, but it shouldn't be too "loud" or distracting, for example not like a bright rainbow. So interesting/nice colors but it should integrate well with the overall look of the map and the site.
+
+-- Regarding the arcs, again I would just pick something visually interesting and leave it constant for all of the concepts. You'll want every language to be connected to at least one other language, and some language to be connected to two or three. The goal of the map is not necessarily to be literally accurate in all details (although we obviously want the languages themselves and the words to be accurate).
+
+-- I think it's fine to click the concept button to see the concept in different languages, but when the page first loads it should cycle automatically from one concept to the next every 5-10 seconds. Once the user clicks a button, the automatic cycling should stop.
